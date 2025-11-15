@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# PyTorch
+*.pth
+*.pt
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Data
+data/*.txt
+data/*.csv
+!data/README.md
+
+# Logs and checkpoints
+logs/
+checkpoints/
+runs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+tokenizer.json
